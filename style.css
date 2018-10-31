@@ -1,0 +1,312 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+/* PALETTE COLORI */
+
+.top_bar_text_color{
+  color: rgba(3, 27, 78, 0.7);
+}
+
+.color_white{
+   color: white;
+}
+
+.bg_white{
+   background: white;
+}
+
+.color_blue{
+   color: #0069ff;
+}
+
+.bg_blue{
+   background: #0069ff;
+}
+
+.color_darkblue{
+  color: #020d28;
+}
+
+.bg_darkblue{
+  background: #020d28;
+}
+
+.bg_lightgrey{
+  background:#f3f5f9;
+}
+
+.color_grey{
+  color:#828ca7;
+}
+
+.color_darkgrey{
+  color: #757575;;
+}
+
+.color_bluegrey{
+  color:#4f5f83;
+}
+
+/* MARGIN_TOP */
+
+.margin_top_10{
+  margin-top: 10px;
+}
+
+.margin_top_20{
+  margin-top: 20px;
+}
+
+.margin_top_30{
+  margin-top: 30px;
+}
+
+.margin_top_40{
+  margin-top: 40px;
+}
+
+.margin_top_60{
+  margin-top: 60px;
+}
+
+.margin_top_80{
+  margin-top: 80px;
+}
+
+.margin_top_100{
+  margin-top: 100px;
+}
+
+/* MARGIN_BOTTOM */
+
+.margin_bottom_20{
+  margin-bottom: 20px;
+}
+
+.margin_bottom_40{
+  margin-bottom: 40px;
+}
+
+.margin_bottom_60{
+  margin-bottom: 60px;
+}
+
+.margin_bottom_80{
+  margin-bottom: 80px;
+}
+
+.margin_bottom_100{
+  margin-bottom: 100px;
+}
+
+
+/* PADDING_TOP */
+
+.padding_top_20{
+  padding-top: 20px;
+}
+
+.padding_top_40{
+  padding-top: 40px;
+}
+
+.padding_top_60{
+  padding-top: 60px;
+}
+
+.padding_top_80{
+  padding-top: 80px;
+}
+
+.padding_top_100{
+  padding-top: 100px;
+}
+
+
+
+/* PADDING_BOTTOM */
+
+.padding_bottom_20{
+  padding-bottom: 20px;
+}
+
+.padding_bottom_40{
+  padding-bottom: 40px;
+}
+
+.padding_bottom_60{
+  padding-bottom: 60px;
+}
+
+.padding_bottom_80{
+  padding-bottom: 80px;
+}
+
+.padding_bottom_100{
+  padding-bottom: 100px;
+}
+
+/* TOPBAR */
+
+
+.top_bar{
+  height: 65px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.top_bar li a{
+text-decoration: none;
+font-size: 14px;
+font-weight: 400;
+}
+
+.top_bar li a:hover{
+text-decoration: none;
+color: rgba(3, 27, 78, 0.7);
+}
+
+.height_bar{
+height: 100%;
+}
+
+
+.left_bar img{
+width: 172px;
+position: relative;
+top:12px;
+}
+
+.center_bar ul li{
+margin-right: 20px;
+}
+
+.top_bar_lineheight{
+line-height: 65px;
+}
+
+.right_bar ul li{
+margin-left: 20px;
+}
+
+
+/* BOTTONI */
+
+.btn_topbar{
+border: 1px solid #0069ff;
+transition: 0.5s;
+}
+
+
+.right_bar .btn_topbar:hover{
+color: white;
+background-color: #0069ff;
+border: 1px solid #0069ff;
+}
+
+.right_bar_button{
+padding: 10px;
+background-color: red;
+}
+
+
+/* JUMBOTRON */
+
+
+.jumbo_inside{
+  height: auto;
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg),linear-gradient(180deg,#303fd9 0,#031b4e);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 65px;
+  background-position: bottom;
+}
+
+.box_account{
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.jumbo_left h1{
+font-size: 62px;
+font-weight: 700;
+}
+
+.jumbo_left p{
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+opacity: 0.8;
+}
+
+.jumbo_right{
+padding-left: 100px;
+}
+
+.box_account{
+  padding: 20px;
+}
+
+.box_account h2{
+font-weight: 700;
+margin-top: 0;
+}
+
+.jumbotron_right_button ul li a{
+  text-decoration: none;
+  display:block;
+  padding: 15px 0;
+}
+
+.form_jumbo{
+display: block;
+width: 100%;
+padding: 15px;
+border-radius: 5px;
+color: rgba(3,27,78,.7);
+border: 1px solid #f1f1f1;
+font-size: 16px;
+}
+
+.jumbotron_right_button ul li:first-child a:hover{
+  background-color:#001dff;
+  color: white;;
+}
+
+.jumbotron_right_button ul li:last-child a{
+box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
+position: relative;
+}
+
+
+.jumbotron_right_button ul li:last-child a:hover{
+  background-color:lightgrey;
+  color: #757575;
+}
+
+.terms_service{
+  font-size: 12px;
+  color: rgba(3,27,78,.7)
+}
+
+.icon_size_google{
+width: 20px;
+position: absolute;
+left: 15px;
+top: 50%;
+transform: translatey(-50%);
+}
