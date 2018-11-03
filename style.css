@@ -156,7 +156,6 @@ body{
 
 /* TOPBAR */
 
-
 .top_bar{
   height: 65px;
   width: 100%;
@@ -166,6 +165,13 @@ body{
   left: 0;
   z-index: 1;
 }
+
+.hamburger_menu{
+  display: none;
+}
+
+
+
 
 .top_bar li a{
 text-decoration: none;
@@ -178,19 +184,19 @@ text-decoration: none;
 color: rgba(3, 27, 78, 0.7);
 }
 
-.height_bar{
-height: 100%;
+
+
+.left_bar a{
+position: relative;
+line-height: 65px;
 }
 
-
-.left_bar img{
-width: 172px;
-position: relative;
-top:12px;
+.left_bar a img{
+width: 130px;
 }
 
 .center_bar ul li{
-margin-right: 20px;
+margin-right: 10px;
 }
 
 .top_bar_lineheight{
@@ -198,7 +204,22 @@ line-height: 65px;
 }
 
 .right_bar ul li{
-margin-left: 20px;
+margin-left: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .center_bar ul{
+      display: none;
+    }
+    .right_bar ul{
+      display: none;
+    }
+    .hamburger_menu{
+      display: block;
+      text-align: right;
+      line-height: 65px;
+      font-size: 25px;
+    }
 }
 
 
@@ -224,6 +245,9 @@ background-color: red;
 
 /* JUMBOTRON */
 
+.jumbotron{
+  margin-bottom: 0px;
+}
 
 .jumbo_inside{
   height: auto;
@@ -309,4 +333,23 @@ position: absolute;
 left: 15px;
 top: 50%;
 transform: translatey(-50%);
+}
+
+@media screen and (max-width: 991px) {
+  .jumbo_right{
+    margin-top: 40px;
+    padding-left: 0px;
+  }
+}
+/* SECTION */
+
+.section h2 {
+font-size: 14px;
+font-weight: 700;
+}
+
+
+
+.loghi_section img{
+width: 140px;
 }
