@@ -451,9 +451,8 @@ line-height: 50px;
 font-size: 20px;
 }
 
-
 .dot_selected ul li {
-border: 3px solid #0069ff;
+border: 2px solid #0069ff;
 padding: 4px;
 border-radius: 100%;
 }
@@ -465,4 +464,23 @@ cursor: pointer;
 
 .dot_selected ul li:first-child{
 background-color: #0069ff;
+}
+
+/* SECTION_4 */
+
+
+.section_4_column h2{
+font-size: 20px;
+font-weight: 700;
+}
+
+.section_4_column p{
+font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+.section_4{
+  text-align: center;
+}
+
 }
