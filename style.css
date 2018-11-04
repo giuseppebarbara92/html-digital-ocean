@@ -558,26 +558,26 @@ color: #00d7d2;
 
 /* FOOTER */
 .footer{
-height: auto;
+  height: auto;
 }
 
 .footer_inside ul{
-list-style: none;
+  list-style: none;
 }
 
 .footer_inside ul li{
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .footer_inside ul li a{
-color: #828ca7;
-text-decoration: none;
+  color: #828ca7;
+  text-decoration: none;
 }
 
 .footer_inside img{
-height: 50px;
+  height: 50px;
 }
 
 .footer_inside span{
-display: block;
+  display: block;
 }
