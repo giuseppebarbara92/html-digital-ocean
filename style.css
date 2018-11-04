@@ -1,8 +1,8 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -175,37 +175,37 @@ body{
 }
 
 .top_bar li a{
-text-decoration: none;
-font-size: 14px;
-font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .top_bar li a:hover{
-text-decoration: none;
-color: rgba(3, 27, 78, 0.7);
+  text-decoration: none;
+  color: rgba(3, 27, 78, 0.7);
 }
 
 
 
 .left_bar a{
-position: relative;
-line-height: 65px;
+  position: relative;
+  line-height: 65px;
 }
 
 .left_bar a img{
-width: 130px;
+  width: 130px;
 }
 
 .center_bar ul li{
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 .top_bar_lineheight{
-line-height: 65px;
+  line-height: 65px;
 }
 
 .right_bar ul li{
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 991px) {
@@ -227,20 +227,20 @@ margin-left: 10px;
 /* BOTTONI */
 
 .btn_topbar{
-border: 1px solid #0069ff;
-transition: 0.5s;
+  border: 1px solid #0069ff;
+  transition: 0.5s;
 }
 
 
 .right_bar .btn_topbar:hover{
-color: white;
-background-color: #0069ff;
-border: 1px solid #0069ff;
+  color: white;
+  background-color: #0069ff;
+  border: 1px solid #0069ff;
 }
 
 .right_bar_button{
-padding: 10px;
-background-color: red;
+  padding: 10px;
+  background-color: red;
 }
 
 
@@ -267,19 +267,20 @@ background-color: red;
 }
 
 .jumbo_left h1{
-font-size: 62px;
-font-weight: 700;
+  font-size: 62px;
+  font-weight: 700;
+  margin-top: 0
 }
 
 .jumbo_left p{
-font-size: 20px;
-font-weight: 400;
-line-height: 34px;
-opacity: 0.8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  opacity: 0.8;
 }
 
 .jumbo_right{
-padding-left: 100px;
+  padding-left: 100px;
 }
 
 .box_account{
@@ -287,8 +288,8 @@ padding-left: 100px;
 }
 
 .box_account h2{
-font-weight: 700;
-margin-top: 0;
+  font-weight: 700;
+  margin-top: 0;
 }
 
 .jumbotron_right_button ul li a{
@@ -298,13 +299,13 @@ margin-top: 0;
 }
 
 .form_jumbo{
-display: block;
-width: 100%;
-padding: 15px;
-border-radius: 5px;
-color: rgba(3,27,78,.7);
-border: 1px solid #f1f1f1;
-font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  color: rgba(3,27,78,.7);
+  border: 1px solid #f1f1f1;
+  font-size: 16px;
 }
 
 .jumbotron_right_button ul li:first-child a:hover{
@@ -313,8 +314,8 @@ font-size: 16px;
 }
 
 .jumbotron_right_button ul li:last-child a{
-box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
-position: relative;
+  box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
+  position: relative;
 }
 
 
@@ -329,11 +330,11 @@ position: relative;
 }
 
 .icon_size_google{
-width: 20px;
-position: absolute;
-left: 15px;
-top: 50%;
-transform: translatey(-50%);
+  width: 20px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translatey(-50%);
 }
 
 @media screen and (max-width: 991px) {
@@ -341,22 +342,30 @@ transform: translatey(-50%);
     margin-top: 40px;
     padding-left: 0px;
   }
+
+  .jumbo_left p{
+    font-size: 16px
+  }
+
+  .jumbo_left h1{
+    font-size: 48px
+  }
 }
 /* SECTION */
 
 .section h2 {
-font-size: 14px;
-font-weight: 700;
+  font-size: 14px;
+  font-weight: 700;
 }
 .loghi_section img{
-width: 140px;
+  width: 140px;
 }
 
 /* SECTION_2 */
 
 .titolo_h2{
-font-weight: 700;
-font-size: 32px;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .text_sottotitolo{
@@ -364,23 +373,23 @@ font-size: 32px;
 }
 
 .inside_section2 h3{
-font-size: 18px;
-font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .inside_section2 p{
-font-size: 16px;
+  font-size: 16px;
 }
 
 .navigatore_section_2 ul li a{
   line-height: 60px;
-padding-left: 20px;
-padding-top: 20px;
-padding-bottom: 20px;
-border-left: 3px solid lightgrey;
-text-decoration: none;
-color: rgba(3, 27, 78, 0.7);
-font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-left: 3px solid lightgrey;
+  text-decoration: none;
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 20px;
 }
 
 .navigatore_section_2 ul li:first-child a{
@@ -396,4 +405,64 @@ font-size: 20px;
   .container_section_box{
   height: 100px;
   }
+}
+
+/* SECTION_3 */
+
+.carousel_section_3{
+  position: relative;
+}
+
+.carousel_section_3 img{
+  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+}
+
+.text_under_carouler{
+  font-size: 18px;
+}
+
+.box_chevron_left{
+
+  height: 50px;
+  width:50px;
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+}
+
+.box_chevron_left a i{
+line-height: 50px;
+font-size: 20px;
+}
+
+.box_chevron_right{
+
+  height: 50px;
+  width:50px;
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+}
+
+.box_chevron_right a i{
+line-height: 50px;
+font-size: 20px;
+}
+
+
+.dot_selected ul li {
+border: 3px solid #0069ff;
+padding: 4px;
+border-radius: 100%;
+}
+
+.dot_selected ul li:hover {
+background-color: #828ca7;
+cursor: pointer;
+}
+
+.dot_selected ul li:first-child{
+background-color: #0069ff;
 }
