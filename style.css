@@ -11,7 +11,7 @@ body{
 
 /* PALETTE COLORI */
 
-.top_bar_text_color{
+.text_color{
   color: rgba(3, 27, 78, 0.7);
 }
 
@@ -56,6 +56,10 @@ body{
 }
 
 /* MARGIN_TOP */
+
+.margin_top_0{
+  margin-top: 0px;
+}
 
 .margin_top_10{
   margin-top: 10px;
@@ -169,9 +173,6 @@ body{
 .hamburger_menu{
   display: none;
 }
-
-
-
 
 .top_bar li a{
 text-decoration: none;
@@ -347,9 +348,51 @@ transform: translatey(-50%);
 font-size: 14px;
 font-weight: 700;
 }
-
-
-
 .loghi_section img{
 width: 140px;
+}
+
+/* SECTION_2 */
+
+.titolo_h2{
+font-weight: 700;
+font-size: 32px;
+}
+
+.text_sottotitolo{
+  font-size: 20px;
+}
+
+.inside_section2 h3{
+font-size: 22px;
+}
+
+.inside_section2 p{
+font-size: 16px;
+}
+
+.navigatore_section_2 ul li a{
+  line-height: 60px;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-left: 2px solid lightgrey;
+text-decoration: none;
+color: rgba(3, 27, 78, 0.7);
+font-size: 20px;
+}
+
+.navigatore_section_2 ul li:first-child a{
+  color: #020d28;
+  border-left: 2px solid #0069ff;
+}
+
+.container_section_box{
+  height: 180px;
+}
+
+@media screen and (max-width: 767px) {
+  .container_section_box{
+  height: 100px;
+  }
 }
